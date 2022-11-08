@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "npm run build"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "@iconify/vue": "^4.0.0",
