@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "run": "node ./src/main.js"
+    "start": "node ./src/main.js"
   },
   "dependencies": {
     "@iconify/vue": "^4.0.0",
