@@ -5,11 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "start": "nodemon ./src/main.js"
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "dependencies": {
     "@iconify/vue": "^4.0.0",
+    "express": "^4.18.2",
     "nodemon": "^2.0.20",
+    "serve-static": "^1.15.0",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
