@@ -13,8 +13,7 @@
     "vuex": "^4.0.0"
   },
   "engines": {
-    "npm": ">=1.19.1",
-    "yarn": "please-use-npm"
+    "npm": ">=1.19.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~5.0.0",
